@@ -12,7 +12,6 @@
         <?php 
             if(isset($_POST['text']))
             {
-
                 $arr=$_POST['text'];
                 echo var_dump($arr);
                 $lenght =  strlen($arr);        
